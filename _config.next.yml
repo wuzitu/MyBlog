@@ -97,8 +97,8 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
   tags: /tags/ || fa fa-tags
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
@@ -166,6 +166,9 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  知乎: https://www.zhihu.com/people/wu-zi-tu || fa fa-plane
+  掘金: https://juejin.cn/user/3280598426716797 || fa fa-file-text-o
+  简书: https://www.jianshu.com/u/be5d5e2de0d8 || fa fa-leaf
 
 social_icons:
   enable: true
@@ -177,10 +180,10 @@ links_settings:
   icon: fa fa-globe
   title: Links
   # Available values: block | inline
-  layout: block
+  layout: inline
 
 links:
-  Title: https://example.com
+
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -284,7 +287,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  # WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  WeChat: https://sdplayer.club/img/donate/gongzhonghao.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -578,7 +581,7 @@ comments:
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any naves, here are some examples.
   nav:
     #disqus:
@@ -609,7 +612,7 @@ disqusjs:
 # Changyan
 # For more information: https://changyan.kuaizhan.com
 changyan:
-  enable: true
+  enable: false
   appid: cyvVIpbOb
   appkey: prod_70cf9156b1ac9b1ae62f3a640b71ecd0
 
