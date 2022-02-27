@@ -41,3 +41,5 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 
 
 <code>aaabbb</code>
+
+<a href="//chooxaur.com/4/4898984">帮我点点广告</a>

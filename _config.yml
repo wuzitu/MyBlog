@@ -79,7 +79,10 @@ plugins: hexo-generate-feed
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+- type: git
+  repo: https://github.com/wuzitu/MyBlog.git
+  message: [hexo update]
+
 
 
 
