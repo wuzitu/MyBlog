@@ -80,8 +80,9 @@ plugins: hexo-generate-feed
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/wuzitu/MyBlog.git
+  repo: "https://github.com/wuzitu/wuzitu.github.io"
   message: [hexo update]
+  token: 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
 
 
 
