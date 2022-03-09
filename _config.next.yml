@@ -158,7 +158,7 @@ site_state: true
 social:
   GitHub: https://github.com/wuzitu || fab fa-github
   E-Mail: mailto:ares586@live.com || fa fa-envelope
-  # Weibo: https://weibo.com/u/1564552980 || fab fa-weibo
+  Weibo: https://weibo.com/u/1564552980 || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/ares586wl || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -183,7 +183,7 @@ links_settings:
   layout: inline
 
 links:
-  作品集: https://vite.wuzitu.co || fa fa-leaf
+
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
